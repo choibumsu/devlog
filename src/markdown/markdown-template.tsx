@@ -1,11 +1,22 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import Header from '@/components/Header'
-import Layout from '@/components/layout'
+import Layout from '@/components/Layout'
 import Seo from '@/components/Seo'
 import '@/styles/markdown.scss'
 
-export default function Template({ data }) {
+type MarkdownProps = {
+  data: {
+    markdownRemark: {
+      frontmatter: {
+        title: string
+        date: Date
+      }
+      html: string
+    }
+  }
+}
+
+const Template: React.FC<MarkdownProps> = ({ data }) => {
   const {
     markdownRemark: { frontmatter, html },
   } = data
@@ -20,6 +31,8 @@ export default function Template({ data }) {
     </Layout>
   )
 }
+
+export default Template
 
 export const pageQuery = graphql`
   query($path: String!) {
