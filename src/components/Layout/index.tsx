@@ -7,7 +7,7 @@ import '@/styles/base.scss'
 import './style.scss'
 
 type LayoutProps = {
-  children: JSX.Element[]
+  children: JSX.Element[] | JSX.Element
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
