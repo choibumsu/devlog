@@ -9,8 +9,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
-import '../styles/reset.scss'
+import Header from './Header'
 import '../styles/base.scss'
 import './layout.css'
 
