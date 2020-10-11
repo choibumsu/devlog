@@ -1,0 +1,6 @@
+@import '~styles/package';
+
+.header[data-component] {
+  height: $height-nav;
+  background-color: $color-main;
+}
