@@ -21,7 +21,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const markdownTemplate = path.resolve(`./src/markdown/markdown-template.js`)
+  const markdownTemplate = path.resolve(`./src/markdown/markdown-template.tsx`)
 
   return graphql(`
     {

@@ -1,7 +1,8 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'gatsby'
+import Header from '@/components/Header'
 import Layout from '@/components/layout'
-import SEO from '@/components/seo'
+import Seo from '@/components/Seo'
 import '@/styles/markdown.scss'
 
 export default function Template({ data }) {
@@ -10,7 +11,7 @@ export default function Template({ data }) {
   } = data
   return (
     <Layout>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <div className="markdown">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
