@@ -13,6 +13,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       alias: {
         '@': path.resolve(__dirname, 'src'),
         styles: path.resolve(__dirname, 'src/styles'),
+        static: path.resolve(__dirname, 'src/static'),
       },
     },
   })
