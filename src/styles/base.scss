@@ -1,0 +1,31 @@
+@import 'package';
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+  font-size: $size-font-default;
+
+  @include mobile {
+    font-size: $size-font-mobile;
+  }
+
+  * {
+    font-family: $font-main;
+  }
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.dp-none {
+  display: none !important;
+}
+
+.dp-block {
+  display: block !important;
+}
+
+.stop-scroll {
+  height: 100vh;
+  overflow-y: hidden;
+}

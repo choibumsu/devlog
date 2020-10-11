@@ -1,0 +1,17 @@
+@import 'definitions';
+
+@mixin dark-mode {
+  @media (prefers-color-scheme: dark) {
+    & {
+      @content;
+    }
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $size-mobile) {
+    & {
+      @content;
+    }
+  }
+}
