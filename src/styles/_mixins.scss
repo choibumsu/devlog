@@ -1,4 +1,4 @@
-@import 'definitions';
+@import '~styles/definitions';
 
 @mixin dark-mode {
   @media (prefers-color-scheme: dark) {
