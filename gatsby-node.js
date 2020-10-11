@@ -7,6 +7,17 @@
 // You can delete this file if you're not using it
 const path = require('path')
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, 'src'),
+        styles: path.resolve(__dirname, 'src/styles'),
+      },
+    },
+  })
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
