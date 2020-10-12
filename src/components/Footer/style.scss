@@ -1,0 +1,23 @@
+@import '~styles/package';
+
+.footer[data-component] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $height-footer;
+  background-color: $color-gray-200;
+
+  .footer-wrapper {
+    width: $width-footer;
+    font: {
+      size: 1.2rem;
+      weight: 200;
+    }
+    color: $color-gray-800;
+    line-height: 1.8rem;
+
+    .strong {
+      font-weight: 400;
+    }
+  }
+}
