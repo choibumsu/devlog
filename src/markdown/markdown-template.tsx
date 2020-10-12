@@ -22,7 +22,7 @@ const Template: React.FC<MarkdownProps> = ({ data }) => {
   } = data
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title={frontmatter.title} />
       <div className="markdown">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
