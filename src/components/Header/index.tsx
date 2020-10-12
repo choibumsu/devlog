@@ -9,9 +9,12 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
   <header className="header" data-component>
     <div className="header-wrapper">
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
+      <div className="left"></div>
+      <Link to="/" className="title center">
+        <i className="laptop-icon f7-icons">device_laptop</i>
+        <h1>{siteTitle}</h1>
+      </Link>
+      <div className="right"></div>
     </div>
   </header>
 )

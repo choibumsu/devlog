@@ -1,6 +1,29 @@
 @import '~styles/package';
 
 .header[data-component] {
-  height: $height-nav;
-  background-color: $color-main;
+  border-bottom: 1px solid $color-gray-100;
+
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $height-nav;
+    max-width: $width-nav;
+    margin: 0 auto;
+
+    .title {
+      display: flex;
+      align-items: center;
+      font: {
+        size: 1.8rem;
+        weight: 600;
+      }
+      color: $color-gray-900;
+
+      .laptop-icon {
+        color: $color-main;
+        margin-right: 0.6rem;
+      }
+    }
+  }
 }
