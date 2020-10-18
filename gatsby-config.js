@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Choi Teemo's Devlog`,
-    description: `Frontend Developer Choi Teemo(@choibumsu) Devlog. JavaScript, TypeScript, SCSS, React, Vue.js, GraphQl, Prisma and All of Development`,
+    title: `Choi Teemo's Devlog | 최범수`,
+    description: `Frontend Developer Choi Teemo(@choibumsu) Devlog. JavaScript, TypeScript, SCSS, React, Vue.js, GraphQl, Prisma and All of Development | 최범수`,
     author: `@choibumsu`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `choi-teemo-devlog`,
+        name: `choi-teemo-devlog | 최범수`,
         short_name: `devlog`,
         start_url: `/`,
         display: `minimal-ui`,
