@@ -1,13 +1,25 @@
 /* start: colors */
 
-$color-main: #8ac6d1;
-$color-main-variant: #5fafbd;
-$color-sub-main: #bbded6;
-$color-sub-main-variant: #9dd3c7;
-$color-secondary: #ffb6b9;
-$color-secondary-variant: #fd9b9f;
-$color-sub-secondary: #fae3d9;
-$color-sub-secondary-variant: #f7d1c0;
+$color-main: $color-indigo-900;
+$color-main-light: $color-indigo-900-light;
+$color-main-dark: $color-indigo-900-dark;
+
+$color-indigo-50: #e8eaf6;
+$color-indigo-100: #c5cae9;
+$color-indigo-200: #9fa8da;
+$color-indigo-300: #7986cb;
+$color-indigo-400: #5c6bc0;
+$color-indigo-500: #3f51b5;
+$color-indigo-600: #3949ab;
+$color-indigo-700: #303f9f;
+$color-indigo-800: #283593;
+$color-indigo-900: #1a237e;
+$color-indigo-900-light: #534bae;
+$color-indigo-900-dark: #000051;
+$color-indigo-100-a: #8c9eff;
+$color-indigo-200-a: #536dfe;
+$color-indigo-400-a: #3d5afe;
+$color-indigo-700-a: #304ffe;
 
 $color-white: #ffffff;
 $color-gray-50: #fafafa;
