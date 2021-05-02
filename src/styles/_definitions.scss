@@ -1,9 +1,4 @@
 /* start: colors */
-
-$color-main: $color-indigo-900;
-$color-main-light: $color-indigo-900-light;
-$color-main-dark: $color-indigo-900-dark;
-
 $color-indigo-50: #e8eaf6;
 $color-indigo-100: #c5cae9;
 $color-indigo-200: #9fa8da;
@@ -37,6 +32,10 @@ $color-gray-800: #424242;
 $color-gray-900: #212121;
 $color-gray-950: #141414;
 $color-black: #000000;
+
+$color-main: $color-indigo-900;
+$color-main-light: $color-indigo-900-light;
+$color-main-dark: $color-indigo-900-dark;
 
 /* end: colors */
 
